@@ -1,0 +1,10 @@
+{
+  "name" : "SAMtoStoredBAM",
+  "appId" : "sam_to_sorted_bam-0.0.0",
+  "archive" : false,
+  "inputs": {
+    "input_file" :  "agave://cyverseUK-Storage2/rosysnake/head.sam"
+  },
+  "parameters" : {
+  }
+}

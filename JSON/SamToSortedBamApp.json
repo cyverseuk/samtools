@@ -1,0 +1,40 @@
+{
+  "name": "sam_to_sorted_bam",
+  "label": "SAM to sorted BAM",
+  "shortDescription": "convert SAM file into a sorted BAM (samtools version 0.1.19)",
+  "longDescription": "Samtools provide utilities to work with BAM and SAM files. Here will converrt a SAM file into a sorted BAM.",
+  "helpURI": "http://samtools.sourceforge.net/",
+  "datePublished": "",
+  "author":"Alice Minotto",
+  "version": "0.0.0",
+  "deploymentSystem": "cyverseUK-Storage2",
+  "deploymentPath": "/mnt/data/apps/sam_to_sorted_bam",
+  "executionSystem": "cyverseUK-Batch2",
+  "executionType": "CLI",
+  "parallelism": "SERIAL",
+  "templatePath": "wrapper.sh",
+  "testPath": "test.sh",
+  "ontology": [ "http://edamontology.org/operation_3198",
+    "http://edamontology.org/operation_2507",
+    "http://edamontology.org/operation_0260", 
+    "http://edamontology.org/operation_0282",
+    "http://edamontology.org/topic_3308",
+    "http://edamontology.org/topic_0102" ],
+  "tags": [ "CyverseUK" ],
+  "inputs": [
+    {"id": "input_file",
+    "value": {
+      "required": true,
+      "default": ""
+    },
+    "details": {
+      "label": "SAM file",
+      "showArgument": false
+    }}
+    ],
+
+
+  "parameters": [
+
+]
+}
