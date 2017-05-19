@@ -3,7 +3,7 @@
   "appId" : "sam_to_sorted_bam-0.0.0",
   "archive" : false,
   "inputs": {
-    "input_file" :  "agave://cyverseUK-Storage2/rosysnake/head.sam"
+    "input_file" :  "agave://cyverseuk-storage2/rosysnake/bwa_output.sam"
   },
   "parameters" : {
   }
