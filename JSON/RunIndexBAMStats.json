@@ -1,0 +1,10 @@
+{
+  "name" : "index_bam_and_get_stats",
+  "appId" : "index_bam_and_get_stats-0.0.0",
+  "archive" : false,
+  "inputs": {
+    "bam_file" :  "agave://cyverseuk-storage2/rosysnake/data_test/sorted_bwa_output.bam"
+  },
+  "parameters" : {
+  }
+}

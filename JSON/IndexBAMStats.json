@@ -1,0 +1,40 @@
+{
+  "name": "index_bam_and_get_stats",
+  "label": "Index BAM  and get stats",
+  "shortDescription": "create a BAM file index and get stats (samtools version 0.1.19)",
+  "longDescription": "Samtools provide utilities to work with BAM and SAM files. Here will converrt a SAM file into a sorted BAM.",
+  "helpURI": "http://samtools.sourceforge.net/",
+  "datePublished": "",
+  "author":"Alice Minotto",
+  "version": "0.0.0",
+  "deploymentSystem": "cyverseUK-Storage2",
+  "deploymentPath": "/mnt/data/apps/index_bam_and_stats",
+  "executionSystem": "cyverseUK-Batch2",
+  "executionType": "CLI",
+  "parallelism": "SERIAL",
+  "templatePath": "wrapper.sh",
+  "testPath": "test.sh",
+  "ontology": [ "http://edamontology.org/operation_3198",
+    "http://edamontology.org/operation_2507",
+    "http://edamontology.org/operation_0260",
+    "http://edamontology.org/topic_3308",
+    "http://edamontology.org/topic_0102",
+    "http://edamontology.org/operation_3211" ],
+  "tags": [ "CyverseUK" ],
+  "inputs": [
+    {"id": "bam_file",
+    "value": {
+      "required": true,
+      "default": ""
+    },
+    "details": {
+      "label": "BAM file (sorted)",
+      "showArgument": false
+    }}
+    ],
+
+
+  "parameters": [
+
+]
+}
