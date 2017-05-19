@@ -1,0 +1,10 @@
+{
+  "name" : "sort_bam",
+  "appId" : "sort_bam-0.0.0",
+  "archive" : false,
+  "inputs": {
+    "bam_file" :  "agave://cyverseuk-storage2/rosysnake/data_test/bwa_output.bam"
+  },
+  "parameters" : {
+  }
+}
