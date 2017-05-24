@@ -1,0 +1,40 @@
+{
+  "name": "index_fasta",
+  "label": "Index FASTA file (faidx)",
+  "shortDescription": "Create an index for a FASTA file (samtools version 0.1.19)",
+  "longDescription": "Samtools provide utilities to work with BAM and SAM files. Here will index a FASTA file.",
+  "helpURI": "http://samtools.sourceforge.net/",
+  "datePublished": "",
+  "author":"Alice Minotto",
+  "version": "0.0.0",
+  "deploymentSystem": "cyverseUK-Storage2",
+  "deploymentPath": "/mnt/data/apps/index_fasta",
+  "executionSystem": "cyverseUK-Batch2",
+  "executionType": "CLI",
+  "parallelism": "SERIAL",
+  "templatePath": "wrapper.sh",
+  "testPath": "test.sh",
+  "ontology": [ "http://edamontology.org/operation_3198",
+    "http://edamontology.org/operation_2507",
+    "http://edamontology.org/operation_0260",
+    "http://edamontology.org/operation_3211",
+    "http://edamontology.org/topic_3308",
+    "http://edamontology.org/topic_0102" ],
+  "tags": [ "CyverseUK" ],
+  "inputs": [
+    {"id": "fasta_file",
+    "value": {
+      "required": true,
+      "default": ""
+    },
+    "details": {
+      "label": "FASTA file",
+      "showArgument": false
+    }}
+    ],
+
+
+  "parameters": [
+
+]
+}

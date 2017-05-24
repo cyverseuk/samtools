@@ -1,0 +1,10 @@
+{
+  "name" : "index_fasta",
+  "appId" : "index_fasta-0.0.0",
+  "archive" : false,
+  "inputs": {
+    "fasta_file" :  "agave://cyverseuk-storage2/rosysnake/data_test/test_reference.fa"
+  },
+  "parameters" : {
+  }
+}
